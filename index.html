@@ -47,7 +47,7 @@
 
       <p id="message"></p>
 
-      <button id="continueBtn" onclick="unlockPage()" style="display:none; margin-top:10px;">
+      <button id="continueBtn" onclick="unlockPage" style="display:none; margin-top:10px;">
         Continue 
       </button>
 
@@ -66,12 +66,12 @@
 
       <p>
         Happy 9th Monthsary, My Love! 💕
-        <br><br>
+        <br>
         Thank you for always making me feel loved and special.
         Every moment with you is my favorite memory!
-        <br><br>
+        <br>
 
-                I'm so grateful that Jehovah blessed my life with someone like you. You make me feel cared for,
+        I'm so grateful that Jehovah blessed my life with someone like you. You make me feel cared for,
         understood, and loved in ways I never imagined. Even the simple things, like making sure I'm okay,
         means so much to my heart. 
         I thank Jah every day for giving me partner who not only loves me, but
@@ -80,17 +80,13 @@
         faithfully, and always put him at the center of our relationship.
         May Jehovah continue guide us, strengthen our love, and help us become kind of people that brings 
         honor to him. 
-
-         
-        <em>
-        Two are better than one because they have a good reward for their hard work. - Ecclesiastes 4:9
-   
-    </em>
-
-
-         <br><br>
-        I love you always 💖
       </p>
+
+      <em>
+        Two are better than one because they have a good reward for their hard work. - Ecclesiastes 4:9
+      </em>
+
+      <p>I love you always 💖</p>
 
     </div>
 
@@ -114,7 +110,6 @@
         Our memories playing like a movie 💕
       </p>
 
-      <!-- 🎬 CINEMATIC SLIDESHOW -->
       <div class="slideshow">
 
         <div class="cinema slide-fade">
@@ -122,7 +117,6 @@
           <img src="photo1.jpg">
           <div class="caption">Thank you for always there to support me 💕</div>
         </div>
-
 
         <div class="cinema slide-fade">
           <div class="rec-indicator"></div>
@@ -135,50 +129,6 @@
           <img src="photo3.jpg">
           <div class="caption">I love every memory we create together 💖</div>
         </div>
-
-       <div class="cinema slide-fade">
-          <div class="rec-indicator"></div>
-          <img src="photo4.jpg">
-          <div class="caption">Thank you for making sure I sleep well 🥺</div>
-        </div>
-
-        <div class="cinema slide-fade">
-          <div class="rec-indicator"></div>
-          <img src="photo5.jpg">
-          <div class="caption">You never failed to make me smile 🥺</div>
-        </div>
-
-         <div class="cinema slide-fade">
-          <div class="rec-indicator"></div>
-          <img src="photo6.jpg">
-          <div class="caption">My Comfort Person 🥺</div>
-        </div>
-
-        <div class="cinema slide-fade">
-          <div class="rec-indicator"></div>
-          <img src="photo7.jpg">
-          <div class="caption">We looked good, but felt better together</div>
-        </div>
-
-        <div class="cinema slide-fade">
-          <div class="rec-indicator"></div>
-          <img src="photo8.jpg">
-          <div class="caption">My heart did a little jump here 💕</div>
-        </div>
-
-
-        <div class="cinema slide-fade">
-          <div class="rec-indicator"></div>
-          <img src="photo9.jpg">
-          <div class="caption">Okay… you’re actually so cool here</div>
-        </div>
-
-        <div class="cinema slide-fade">
-          <div class="rec-indicator"></div>
-          <img src="photo10.jpg">
-          <div class="caption">Most Handsome Man 🥺</div>
-        </div>
-
 
       </div>
 
@@ -221,7 +171,7 @@
 
       } else {
 
-        message.innerHTML = "Lovie it seems wrong, hint: our Monthsary Date  💌";
+        message.innerHTML = "Lovie it seems wrong, hint: our Monthsary Date 💌";
         enteredPin = "";
         updateDisplay();
         btn.style.display = "none";
@@ -235,7 +185,6 @@
       document.getElementById("mainContent").classList.remove("hidden");
     }
 
-    // SLIDESHOW
     let slideIndex = 0;
 
     function showSlides(){
